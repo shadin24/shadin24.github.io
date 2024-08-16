@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/7504e76a87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="Home" class="Home">
+    <div class="welcome">
+      <h3><span style="color: #ff6600">-</span> Hello</h3>
+      <h1 style="color: #ff6600">I'm Shadin</h1>
+      <h1>Software Developer</h1>
+      <h1>based in INDIA</h1>
+      <p>Welcome to my portfolio! I’m an Associate Software Developer with a passion for creating innovative solutions. Explore my projects to see how I turn ideas into functional, impactful software.</p>
+    </div>
+    <img src="Images/profile.jpeg" alt="Profile Image" />
+  </section>
+
+  <section id="About" class="About">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img alt="profile casual photo" src="Images/profile1.jpeg" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title"><span style="color: #ff6600">-</span> About Me</h1>
+          <br />
+          <p>Hello! I am Shadin, a recent BTech graduate in Information Technology from CUSAT, 2024. I am a passionate learner with a keen interest in web development, design, photography, and editing. My journey in technology is driven by a relentless desire to learn, grow, and innovate. I am excited to contribute my skills to impactful projects and collaborate with like-minded professionals in the tech industry.</p>
+          <div class="tab-titles">
+            <p class="tab-link active-link" onclick="displayTabDetails('experience')">Experience</p>
+            <p class="tab-link" onclick="displayTabDetails('education')">Education</p>
+            <p class="tab-link" onclick="displayTabDetails('intrests')">Interests & Hobbies</p>
+          </div>
+          <div class="tab-content active-content" id="experience">
+            <ul>
+              <li><span style="color: #808080; font-size: 14px">05/08/2024 - current</span><br />Associate Software Engineer at Mygate, Kochi</li>
+              <li><span style="color: #808080; font-size: 14px">01/06/2023 - 16/06/2024</span><br />Internship at CSML</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="education">
+            <ul>
+              <li><span style="color: #808080; font-size: 14px">2020 - 2024</span><br />BTech Information Technology, CUSAT</li>
+              <li><span style="color: #808080; font-size: 14px">2018 - 2020</span><br />Intermediate, HMYHSS Manjeri</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="intrests">
+            <ul>
+              <li><span style="color: #808080; font-size: 14px">Coding</span><br />Passionate about developing web applications and learning new programming languages.</li>
+              <li><span style="color: #808080; font-size: 14px">Designing</span><br />Enjoy creating visually appealing designs and working on UI/UX projects.</li>
+              <li><span style="color: #808080; font-size: 14px">Photography</span><br />Love capturing moments and experimenting with different photography techniques.</li>
+              <li><span style="color: #808080; font-size: 14px">Playing Football</span><br />Enthusiastic about playing football and being part of a team.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Services" class="services">
+    <div class="container fade-in">
+      <h1 class="sub-title" style="margin-top: 25px"><span style="color: #ff6600">-</span> My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Frontend Web Development</h2>
+          <p>I specialize in building engaging and responsive web pages using HTML, CSS, and JavaScript. From structuring content and styling it for visual appeal to adding interactive features, I create seamless user experiences that work across all devices.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI Design</h2>
+          <p>Skilled in designing user interfaces with Figma, I craft intuitive and visually appealing designs that enhance user interaction. My focus is on creating designs that are both aesthetically pleasing and user-friendly, ensuring a great experience for your audience.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-camera"></i>
+          <h2>Photography</h2>
+          <p>I offer professional photography services to capture stunning images across various genres. From portrait and landscape photography to event and commercial shoots, I ensure high-quality results that meet your needs and exceed your expectations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Skills" class="Skills">
+    <div class="container fade-in">
+      <h1 class="main-heading"><span style="color:red">-</span> Skills</h1>
+      <div class="skill-section">
+        <div class="technical-section">
+          <h3 class="sub-heading">Technical Skills</h3>
+          <div class="each-skill">
+            <i class="fa-brands fa-html5"></i>
+            <p>HTML</p>
+            <div class="progress-bar">
+              <div class="html"><span>85%</span></div>
+            </div>
+          </div>
+          <div class="each-skill">
+            <i class="fa-brands fa-css3-alt"></i>
+            <p>CSS</p>
+            <div class="progress-bar">
+              <div class="css"><span>75%</span></div>
+            </div>
+          </div>
+          <div class="each-skill">
+            <i class="fa-brands fa-js"></i>
+            <p>JAVASCRIPT</p>
+            <div class="progress-bar">
+              <div class="javascript"><span>70%</span></div>
+            </div>
+          </div>
+          <div class="each-skill">
+            <i class="fa-brands fa-python"></i>
+            <p>PYTHON</p>
+            <div class="progress-bar">
+              <div class="python"><span>80%</span></div>
+            </div>
+          </div>
+          <div class="each-skill">
+            <i class="fab fa-react"></i>
+            <p>React</p>
+            <div class="progress-bar">
+              <div class="react"><span>85%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Projects" class="Projects">
+    <div id="projects fade-in">
+      <div class="container">
+        <h1 class="sub-title" style="margin-top:25px">My Projects</h1>
+        <div class="project-list" id="projectList">
+          <div class="project-card">
+            <div class="card-content">
+              <h3>Doctor Appointment System</h3>
+              <p class="tech-stack">Technologies: HTML, CSS, JavaScript</p>
+              <p class="description">Allows users to schedule, manage, and track doctor appointments efficiently using HTML, CSS, and JavaScript.</p>
+              <a href="https://your-doctor-appointment-demo-link.com" target="_blank">
+                <i class="fa-solid fa-up-right-from-square"></i> View Project
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="card-content">
+              <h3>Meal Share Application</h3>
+              <p class="tech-stack">Technologies: Flutter, Firebase</p>
+              <p class="description">A meal-sharing app built using Flutter and Firebase, allowing users to share and discover meals easily.</p>
+              <a href="https://your-meal-share-demo-link.com" target="_blank">
+                <i class="fa-solid fa-up-right-from-square"></i> View Project
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="card-content">
+              <h3>Air Quality Monitoring System</h3>
+              <p class="tech-stack">Technologies: React, Firebase</p>
+              <p class="description">Monitors and displays air quality data using React and Firebase, providing users with real-time updates.</p>
+              <a href="https://your-air-quality-monitoring-demo-link.com" target="_blank">
+                <i class="fa-solid fa-up-right-from-square"></i> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn" id="seeMoreBtn">see more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Contact" class="Contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> shadinkvr2002@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 9400804263</p>
+          <div class="social-icon">
+            <a href="https://www.linkedin.com/in/shadin-m-10002b238" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+          <a href="./../images/new resume.pdf" class="btn btn2" download>Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="name" placeholder="Your Name" required/>
+            <input type="email" name="email" placeholder="Your Email" required/>
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2022 My Website. All rights reserved.</p>
+    <div class="social-media">
+      <div class="social-icon">
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
